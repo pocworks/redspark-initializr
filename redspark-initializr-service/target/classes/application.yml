@@ -1159,35 +1159,30 @@ initializr:
           description: Esquema de autenticação do SESC
           groupId: br.org.sesc
           artifactId: sesc-commons-security
-          version: 2.2.0-SNAPSHOT
           starter: false
         - name: Sesc Commons Utils
           id: sesc-commons-utils
           description: Projeto com classes reutilizaveis nos projetos
           groupId: br.org.sesc
           artifactId: sesc-commons-utils
-          version: 2.2.0-SNAPSHOT
-          starter: false
+          starter: true
         - name: Sesc Notificações Client
           id: sesc-notificacoes-client
           description: Projeto client do sesc-notificações
           groupId: br.org.sesc
           artifactId: sesc-notificacoes-client
-          version: 1.0.1-SNAPSHOT
           starter: false
         - name: Sesc Permissão Client
           id: sesc-permissao-client
           description: Projeto client do sesc-permissões
           groupId: br.org.sesc
           artifactId: sesc-permissao-client
-          version: 1.6.7
           starter: false
         - name: Sesc Permissão Sync
           id: sesc-permissao-sync
           description: Projeto de sincronização de permissões do sesc-permissões
           groupId: br.org.sesc
           artifactId: sesc-permissao-sync
-          version: 1.6.7
           starter: false
     - name: redspark
       content:
@@ -1196,5 +1191,4 @@ initializr:
           description: Projeto commons do modelo boot
           groupId: io.redspark
           artifactId: modelo-boot-starter-commons
-          version: 0.0.1-SNAPSHOT
-          starter: false
+          starter: true

@@ -36,13 +36,15 @@
                             {{/languages.content}}
                         </select>
                         </span>
-                        <!--<span class="rwd-line">
-                        <label for="bootVersion">and Spring Boot</label>
-                        <select tabindex="3" class="form-control" name="bootVersion" id="bootVersion">
-                            {{#bootVersions.content}}
-                            <option value="{{id}}" {{#default}} selected{{/default}}>{{name}}</option>
-                            {{/bootVersions.content}}
-                        </select>-->
+                        <div style="display:none">
+                            <span class="rwd-line">
+                            <label for="bootVersion">and Spring Boot</label>
+                            <select tabindex="3" class="form-control" name="bootVersion" id="bootVersion">
+                                {{#bootVersions.content}}
+                                <option value="{{id}}" {{#default}} selected{{/default}}>{{name}}</option>
+                                {{/bootVersions.content}}
+                            </select>
+                        </div>
                     </span>
                     </h2>
                 </div>

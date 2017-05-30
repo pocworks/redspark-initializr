@@ -49,8 +49,8 @@ public class InitializrService {
     return new LegacyStsController(metadataProvider, resourceUrlProvider);
   }
 
-  @Configuration
   @EnableAsync
+  @Configuration
   static class AsyncConfiguration extends AsyncConfigurerSupport {
 
     @Override
