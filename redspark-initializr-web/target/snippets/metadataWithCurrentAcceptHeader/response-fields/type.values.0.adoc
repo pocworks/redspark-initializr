@@ -1,0 +1,12 @@
+[source,json,options="nowrap"]
+----
+{
+  "name" : "Maven POM",
+  "action" : "/pom.xml",
+  "id" : "maven-build",
+  "tags" : {
+    "build" : "maven",
+    "format" : "build"
+  }
+}
+----

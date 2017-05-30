@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://start.spring.io/' 'Accept:*/*' 'User-Agent:HTTPie/0.8.0'
+----

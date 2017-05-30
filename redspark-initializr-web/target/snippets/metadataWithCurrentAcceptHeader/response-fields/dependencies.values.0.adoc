@@ -1,0 +1,26 @@
+[source,json,options="nowrap"]
+----
+{
+  "values" : [ {
+    "_links" : {
+      "reference" : {
+        "href" : "https://example.com/doc"
+      },
+      "guide" : {
+        "href" : "https://example.com/guide",
+        "title" : "Building a RESTful Web Service"
+      }
+    },
+    "name" : "Web",
+    "description" : "Web dependency description",
+    "id" : "web"
+  }, {
+    "name" : "Security",
+    "id" : "security"
+  }, {
+    "name" : "Data JPA",
+    "id" : "data-jpa"
+  } ],
+  "name" : "Core"
+}
+----

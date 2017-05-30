@@ -1,0 +1,7 @@
+[source,json,options="nowrap"]
+----
+{
+  "name" : "1.6",
+  "id" : "1.6"
+}
+----

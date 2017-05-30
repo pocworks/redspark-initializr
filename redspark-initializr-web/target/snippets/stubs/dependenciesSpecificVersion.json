@@ -1,0 +1,19 @@
+{
+  "request" : {
+    "url" : "/ui/dependencies",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : ""
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"dependencies\" : [ {\n    \"name\" : \"Web\",\n    \"description\" : \"Web dependency description\",\n    \"id\" : \"web\",\n    \"group\" : \"Core\"\n  }, {\n    \"name\" : \"Security\",\n    \"id\" : \"security\",\n    \"group\" : \"Core\"\n  }, {\n    \"keywords\" : \"jpa\",\n    \"name\" : \"Data JPA\",\n    \"id\" : \"data-jpa\",\n    \"group\" : \"Core\"\n  }, {\n    \"keywords\" : \"thefoo,dafoo\",\n    \"name\" : \"Foo\",\n    \"weight\" : 42,\n    \"id\" : \"org.acme:foo\",\n    \"group\" : \"Other\"\n  }, {\n    \"name\" : \"Bar\",\n    \"id\" : \"org.acme:bar\",\n    \"group\" : \"Other\"\n  }, {\n    \"name\" : \"My API\",\n    \"id\" : \"my-api\",\n    \"group\" : \"Other\"\n  } ]\n}",
+    "headers" : {
+      "ETag" : "\"39265645831dd04ccf1a5a90a79fde29\"",
+      "Content-Type" : "application/json"
+    }
+  }
+}

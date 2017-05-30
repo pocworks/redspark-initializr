@@ -1,0 +1,175 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 5674
+
+<html>
+
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<title>Spring Initializr</title>
+    
+<link rel="stylesheet" href="/css/bootstrap-sts.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    
+<div class="navbar">
+        
+<div class="navbar-inner">
+            
+<a class="brand" href="https://spring.io">
+                Spring
+            </a>
+            
+<ul class="nav">
+                
+<li>
+                    
+<a href="/" title="Download a template project or build file with some very basic content.">
+                        Projects
+                    </a>
+                
+</li>
+                
+<li>
+                    
+<a href="/spring.zip" title="Download the spring CLI as a zip distribution (unpack and run bin/spring on a command line).">
+                        Download
+                    </a>
+                
+</li>
+                
+<li>
+                    
+<a href="/install.sh" title="Installer for the spring CLI command on Un*x-like system (should work on Linux, Mac or Cygwin). Curl this link and pipe to bash, or download the script and run it.">
+                        Installer
+                    </a>
+                
+</li>
+            
+</ul>
+        
+</div>
+    
+</div>
+    
+<h1>Spring Initializr</h1>
+    
+<div>
+        
+<form id="form" action="/starter.zip" method="get">
+            
+<label for="groupId">Group:</label> <input id="groupId" type="text" value="io.redspark" name="groupId">
+            <label for="artifactId">Artifact:</label> <input id="artifactId" type="text" value="demo" name="artifactId">
+            <label for="name">Name:</label> <input id="name" type="text" value="demo" name="name">
+            <label for="name">Description:</label> <input id="description" type="text" value="Sample App project for Modelo Boot" name="description">
+            <label for="packageName">Package Name:</label> <input id="packageName" type="text" value="io.redspark.demo" name="packageName">
+            <label>Styles:</label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="web">
+                Web
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="security">
+                Security
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="data-jpa">
+                Data JPA
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="org.acme:foo">
+                Foo
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="org.acme:bar">
+                Bar
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="org.acme:biz">
+                Biz
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="org.acme:bur">
+                Bur
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="style" value="my-api">
+                My API
+            </label>
+            <label>Type:</label>
+            <label class="radio">
+                <input type="radio" name="type" value="starter.zip" checked="true" onclick="javascript:this.form.action='/starter.zip'">
+                Maven Project
+            </label>
+            <label class="radio">
+                <input type="radio" name="type" value="gradle.zip" onclick="javascript:this.form.action='/starter.zip'">
+                Gradle Project
+            </label>
+            <label>Packaging:</label>
+            <label class="radio">
+                <input type="radio" name="packaging" value="jar" checked="true">
+                Jar
+            </label>
+            <label class="radio">
+                <input type="radio" name="packaging" value="war">
+                War
+            </label>
+            <label>Java Version:</label>
+            <label class="radio">
+                <input type="radio" name="javaVersion" value="1.6">
+                1.6
+            </label>
+            <label class="radio">
+                <input type="radio" name="javaVersion" value="1.7">
+                1.7
+            </label>
+            <label class="radio">
+                <input type="radio" name="javaVersion" value="1.8" checked="true">
+                1.8
+            </label>
+            <label>Language:</label>
+            <label class="radio">
+                <input type="radio" name="language" value="groovy">
+                Groovy
+            </label>
+            <label class="radio">
+                <input type="radio" name="language" value="java" checked="true">
+                Java
+            </label>
+            <label class="radio">
+                <input type="radio" name="language" value="kotlin">
+                Kotlin
+            </label>
+            <label>Spring Boot Version:</label>
+            <label class="radio">
+                <input type="radio" name="bootVersion" value="1.2.0.BUILD-SNAPSHOT">
+                Latest SNAPSHOT
+            </label>
+            <label class="radio">
+                <input type="radio" name="bootVersion" value="1.1.4.RELEASE" checked="true">
+                1.1.4
+            </label>
+            <label class="radio">
+                <input type="radio" name="bootVersion" value="1.0.2.RELEASE">
+                1.0.2
+            </label>
+            <button name="generate-project" type="submit" class="btn">Generate</button>
+        
+</form>
+    
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+----

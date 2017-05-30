@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://start.spring.io/dependencies?bootVersion=1.2.1.RELEASE' 'Accept:application/json'
+----

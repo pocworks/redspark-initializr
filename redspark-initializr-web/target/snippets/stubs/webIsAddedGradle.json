@@ -1,0 +1,19 @@
+{
+  "request" : {
+    "url" : "/build.gradle",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "buildscript {\n\text {\n\t\tspringBootVersion = '1.1.4.RELEASE'\n\t}\n\trepositories {\n\t\tmavenCentral()\n\t}\n\tdependencies {\n\t\tclasspath(\"org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}\")\n\t\tclasspath('io.spring.gradle:dependency-management-plugin:1.0.0.RELEASE')\n\t}\n}\n\napply plugin: 'java'\napply plugin: 'eclipse-wtp'\napply plugin: 'spring-boot'\napply plugin: 'io.spring.dependency-management'\napply plugin: 'war'\n\nversion = '0.0.1-SNAPSHOT'\nsourceCompatibility = 1.8\n\nrepositories {\n\tmavenCentral()\n}\n\nconfigurations {\n\tprovidedRuntime\n}\n\ndependencies {\n\tcompile('org.springframework.boot:spring-boot-starter-web')\n\tprovidedRuntime('org.springframework.boot:spring-boot-starter-tomcat')\n\ttestCompile('org.springframework.boot:spring-boot-starter-test')\n}\n",
+    "headers" : {
+      "Content-Type" : "application/octet-stream",
+      "Content-Disposition" : "attachment; filename=\"build.gradle\""
+    }
+  }
+}

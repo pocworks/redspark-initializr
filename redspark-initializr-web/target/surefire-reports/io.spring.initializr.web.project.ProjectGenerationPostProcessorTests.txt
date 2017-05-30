@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.spring.initializr.web.project.ProjectGenerationPostProcessorTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.601 sec - in io.spring.initializr.web.project.ProjectGenerationPostProcessorTests

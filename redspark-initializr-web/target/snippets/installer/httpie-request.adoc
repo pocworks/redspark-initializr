@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://start.spring.io/install.sh' 'Accept:text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
+----

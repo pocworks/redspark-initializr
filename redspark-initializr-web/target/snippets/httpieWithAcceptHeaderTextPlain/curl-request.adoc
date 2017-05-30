@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://start.spring.io/' -i -H 'Accept: text/plain' -H 'User-Agent: HTTPie/0.8.0'
+----

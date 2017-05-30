@@ -1,0 +1,56 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+ETag: "ebee03130f64311188cfdb9f7bbaab56"
+Content-Type: text/plain
+Content-Length: 3509
+
+      _                      __ __ ___  __| |___ _ __   __ _ _ __| | __| '__/ _ \/ _` / __| '_ \ / _` | '__| |/ / | | |  __/ (_| \__ \ |_) | (_| | |  |   < |_|  \___|\__,_|___/ .__/ \__,_|_|  |_|\_\           |_|                    
+:: Service capabilities ::  https://start.spring.io
+
+Supported dependencies
++--------------+----------------------------+-------------------------------------------+
+| Id           | Description                | Required version                          |
++--------------+----------------------------+-------------------------------------------+
+| data-jpa     | Data JPA                   |                                           |
+| data-jpa     | Data JPA                   |                                           |
+| my-api       | My API                     |                                           |
+| org.acme:bar | Bar                        |                                           |
+| org.acme:biz | Biz                        | >=1.2.0.BUILD-SNAPSHOT                    |
+| org.acme:bur | Bur                        | >=1.1.4.RELEASE and <1.2.0.BUILD-SNAPSHOT |
+| org.acme:foo | Foo                        |                                           |
+| security     | Security                   |                                           |
+| web          | Web dependency description |                                           |
++--------------+----------------------------+-------------------------------------------+
+
+
+Project types (* denotes the default)
++-----------------+----------------+-----------------------------+
+| Id              | Description    | Tags                        |
++-----------------+----------------+-----------------------------+
+| gradle-build    | Gradle Config  | build:gradle,format:build   |
+| gradle-project  | Gradle Project | build:gradle,format:project |
+| maven-build     | Maven POM      | build:maven,format:build    |
+| maven-project * | Maven Project  | build:maven,format:project  |
++-----------------+----------------+-----------------------------+
+
+
+Parameters
++-------------+------------------------------------------+------------------------------------+
+| Id          | Description                              | Default value                      |
++-------------+------------------------------------------+------------------------------------+
+| artifactId  | project coordinates (infer archive name) | demo                               |
+| bootVersion | spring boot version                      | 1.1.4.RELEASE                      |
+| description | project description                      | Sample App project for Modelo Boot |
+| groupId     | project coordinates                      | io.redspark                        |
+| javaVersion | language level                           | 1.8                                |
+| language    | programming language                     | java                               |
+| name        | project name (infer application name)    | demo                               |
+| packageName | root package                             | io.redspark.demo                   |
+| packaging   | project packaging                        | jar                                |
+| type        | project type                             | maven-project                      |
+| version     | project version                          | 0.0.1-SNAPSHOT                     |
++-------------+------------------------------------------+------------------------------------+
+
+
+----

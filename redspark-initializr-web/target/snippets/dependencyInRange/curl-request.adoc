@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://start.spring.io/starter.tgz?style=org.acme:biz&bootVersion=1.2.1.RELEASE' -i -H 'Accept: application/octet-stream, application/json, application/json, application/*+json, application/*+json, */*'
+----

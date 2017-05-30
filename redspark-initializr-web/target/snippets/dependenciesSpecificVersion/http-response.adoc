@@ -1,0 +1,39 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+ETag: "39265645831dd04ccf1a5a90a79fde29"
+Content-Type: application/json
+Content-Length: 594
+
+{
+  "dependencies" : [ {
+    "name" : "Web",
+    "description" : "Web dependency description",
+    "id" : "web",
+    "group" : "Core"
+  }, {
+    "name" : "Security",
+    "id" : "security",
+    "group" : "Core"
+  }, {
+    "keywords" : "jpa",
+    "name" : "Data JPA",
+    "id" : "data-jpa",
+    "group" : "Core"
+  }, {
+    "keywords" : "thefoo,dafoo",
+    "name" : "Foo",
+    "weight" : 42,
+    "id" : "org.acme:foo",
+    "group" : "Other"
+  }, {
+    "name" : "Bar",
+    "id" : "org.acme:bar",
+    "group" : "Other"
+  }, {
+    "name" : "My API",
+    "id" : "my-api",
+    "group" : "Other"
+  } ]
+}
+----

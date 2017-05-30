@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "/error",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 406,
+    "body" : "{\n  \"timestamp\" : 1496171325016,\n  \"status\" : 406,\n  \"error\" : \"Not Acceptable\",\n  \"message\" : \"No message available\",\n  \"path\" : \"/\"\n}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    }
+  }
+}

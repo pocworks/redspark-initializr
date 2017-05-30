@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /starter.zip?style=data-jpa&name=Invalid HTTP/1.1
+Accept: application/octet-stream, application/json, application/json, application/*+json, application/*+json, */*
+Host: start.spring.io
+
+----

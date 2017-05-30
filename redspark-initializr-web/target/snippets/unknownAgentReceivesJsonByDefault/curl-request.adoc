@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://start.spring.io/' -i -H 'Accept: */*' -H 'User-Agent: foo/1.0'
+----

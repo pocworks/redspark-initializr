@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://start.spring.io/starter.zip' -i -H 'Accept: application/octet-stream, application/json, application/json, application/*+json, application/*+json, */*'
+----

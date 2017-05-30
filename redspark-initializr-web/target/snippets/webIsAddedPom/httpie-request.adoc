@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://start.spring.io/pom.xml?packaging=war' 'Accept:text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
+----

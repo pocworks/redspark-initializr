@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://start.spring.io/dependencies?bootVersion=1.2.1.RELEASE' -i -H 'Accept: application/json'
+----

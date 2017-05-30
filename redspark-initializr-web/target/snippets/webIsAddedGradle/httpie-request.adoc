@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://start.spring.io/build.gradle?packaging=war' 'Accept:text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
+----

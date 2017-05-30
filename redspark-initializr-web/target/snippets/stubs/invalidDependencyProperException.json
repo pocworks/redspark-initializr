@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "/error",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 400,
+    "body" : "{\n  \"timestamp\" : 1496171324679,\n  \"status\" : 400,\n  \"error\" : \"Bad Request\",\n  \"message\" : \"Unknown dependency 'foo' check project metadata\",\n  \"path\" : \"/starter.zip?style=foo\"\n}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    }
+  }
+}
