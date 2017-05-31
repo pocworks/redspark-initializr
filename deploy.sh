@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build -t redspark/redspark-initializr:$BUILD_TAG server/docker
+docker build -t redspark/redspark-initializr:$BUILD_TAG redspark-initializr-service
 docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
 docker push redspark/redspark-initializr:$BUILD_TAG
 
