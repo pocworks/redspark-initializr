@@ -2,17 +2,13 @@ machine:
   java:
     version: oraclejdk8
 
-dependencies:
-  override:
-    - mvn dependency:resolve
-
 general:
   artifacts:
     - "redspark-initializr-service/target/redspark-initializr-service.jar"
 
 test:
   override:
-    - mvn --fail-never dependency:go-offline -f modelo-boot/pom.xml || true
+    - mvn --fail-never dependency:go-offline -f pom.xml || true
     - mvn install jacoco:report coveralls:report -DrepoToken=1nqr7w1iwtzAToi58EabiIhjhMgeoZoNR
 
   post:
