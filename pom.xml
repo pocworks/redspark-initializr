@@ -49,6 +49,7 @@
 	<modules>
 		<module>redspark-initializr-generator</module>
 		<module>redspark-initializr-web</module>
+		<module>redspark-initializr-service</module>
 	</modules>
 
 	<dependencyManagement>

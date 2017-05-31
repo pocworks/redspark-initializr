@@ -1,59 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.spring.initializr.web.project.LegacyStsControllerIntegrationTests" time="0.048" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="io.spring.initializr.web.project.LegacyStsControllerIntegrationTests" time="0.037" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
-    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/java/jdk1.8.0_65/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.65-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/gsuaki/Workspace/redspark/redspark-initializr"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/gsuaki/Workspace/redspark/redspark-initializr"/>
-    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.dir" value="/home/guilherme/workspace/redspark-initializr"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk/jre/lib/endorsed"/>
+    <property name="java.endorsed.dirs" value="/opt/java/jdk1.8.0_65/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/opt/maven/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.9.28-1-MANJARO"/>
-    <property name="library.jansi.path" value="/opt/maven/lib/jansi-native/linux64"/>
-    <property name="user.home" value="/home/gsuaki"/>
+    <property name="os.version" value="3.16.0-38-generic"/>
+    <property name="user.home" value="/home/guilherme"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="ANSI_X3.4-1968"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="gsuaki"/>
-    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="guilherme"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk/jre"/>
+    <property name="java.home" value="/opt/java/jdk1.8.0_65/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_121"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="/opt/java/jdk1.8.0_65/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk/jre/classes"/>
+    <property name="sun.boot.class.path" value="/opt/java/jdk1.8.0_65/jre/lib/resources.jar:/opt/java/jdk1.8.0_65/jre/lib/rt.jar:/opt/java/jdk1.8.0_65/jre/lib/sunrsasign.jar:/opt/java/jdk1.8.0_65/jre/lib/jsse.jar:/opt/java/jdk1.8.0_65/jre/lib/jce.jar:/opt/java/jdk1.8.0_65/jre/lib/charsets.jar:/opt/java/jdk1.8.0_65/jre/lib/jfr.jar:/opt/java/jdk1.8.0_65/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/opt/maven"/>
+    <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,272 +58,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="legacyStsHome" classname="io.spring.initializr.web.project.LegacyStsControllerIntegrationTests" time="0.048">
-    <failure message="groupId not found" type="java.lang.AssertionError">java.lang.AssertionError: groupId not found
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at io.spring.initializr.web.project.LegacyStsControllerIntegrationTests.legacyStsHome(LegacyStsControllerIntegrationTests.java:49)
-</failure>
-    <system-out><![CDATA[2017-05-30 16:03:23.746  INFO 8885 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [io.spring.initializr.web.project.LegacyStsControllerIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2017-05-30 16:03:23.746  INFO 8885 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [io.spring.initializr.web.AbstractInitializrControllerIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2017-05-30 16:03:23.756  INFO 8885 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2017-05-30 16:03:23.758  INFO 8885 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
-2017-05-30 16:03:23.759  INFO 8885 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2017-05-30 16:03:23.759  INFO 8885 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c952a33, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70029d2d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1150d471, org.springframework.test.context.support.DirtiesContextTestExecutionListener@709f0202, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@654e6a90, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14168e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16a5c7e4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e225820, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8aeab9e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a2dc0a, io.spring.initializr.web.test.MockMvcClientHttpRequestFactoryTestExecutionListener@3a00b15d]
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v1.4.6.RELEASE)
-
-2017-05-30 16:03:23.814  INFO 8885 --- [           main] .w.p.LegacyStsControllerIntegrationTests : Starting LegacyStsControllerIntegrationTests on gsuaki-pc with PID 8885 (started by gsuaki in /home/gsuaki/Workspace/redspark/redspark-initializr/redspark-initializr-web)
-2017-05-30 16:03:23.814  INFO 8885 --- [           main] .w.p.LegacyStsControllerIntegrationTests : The following profiles are active: test-default
-2017-05-30 16:03:23.816  INFO 8885 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@149c39b: startup date [Tue May 30 16:03:23 BRT 2017]; root of context hierarchy
-2017-05-30 16:03:24.363  INFO 8885 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
-2017-05-30 16:03:24.363  INFO 8885 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2017-05-30 16:03:24.386  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sts],produces=[text/html]}" onto public java.lang.String io.spring.initializr.web.project.LegacyStsController.stsHome(java.util.Map<java.lang.String, java.lang.Object>)
-2017-05-30 16:03:24.388  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-30 16:03:24.388  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-30 16:03:24.390  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metadata/client]}" onto public java.lang.String io.spring.initializr.web.project.MainController.client()
-2017-05-30 16:03:24.391  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metadata/config],produces=[application/json]}" onto public io.spring.initializr.metadata.InitializrMetadata io.spring.initializr.web.project.MainController.config()
-2017-05-30 16:03:24.391  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/build]}" onto public org.springframework.http.ResponseEntity<byte[]> io.spring.initializr.web.project.MainController.gradle(io.spring.initializr.generator.BasicProjectRequest)
-2017-05-30 16:03:24.392  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[text/html]}" onto public java.lang.String io.spring.initializr.web.project.MainController.home(java.util.Map<java.lang.String, java.lang.Object>)
-2017-05-30 16:03:24.392  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/spring]}" onto public java.lang.String io.spring.initializr.web.project.MainController.spring()
-2017-05-30 16:03:24.392  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pom]}" onto public org.springframework.http.ResponseEntity<byte[]> io.spring.initializr.web.project.MainController.pom(io.spring.initializr.generator.BasicProjectRequest)
-2017-05-30 16:03:24.393  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[text/plain]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.project.MainController.serviceCapabilitiesText(java.lang.String)
-2017-05-30 16:03:24.394  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/hal+json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.project.MainController.serviceCapabilitiesHal()
-2017-05-30 16:03:24.395  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/vnd.initializr.v2.1+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.project.MainController.serviceCapabilitiesV21()
-2017-05-30 16:03:24.396  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/vnd.initializr.v2+json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.project.MainController.serviceCapabilitiesV2()
-2017-05-30 16:03:24.396  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dependencies],produces=[application/vnd.initializr.v2.1+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.project.MainController.dependenciesV21(java.lang.String)
-2017-05-30 16:03:24.396  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/starter.tgz],produces=[application/x-compress]}" onto public org.springframework.http.ResponseEntity<byte[]> io.spring.initializr.web.project.MainController.springTgz(io.spring.initializr.generator.BasicProjectRequest) throws java.io.IOException
-2017-05-30 16:03:24.397  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/spring.tar.gz || /spring.tgz]}" onto public java.lang.String io.spring.initializr.web.project.MainController.springTgz()
-2017-05-30 16:03:24.397  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/starter.zip]}" onto public org.springframework.http.ResponseEntity<byte[]> io.spring.initializr.web.project.MainController.springZip(io.spring.initializr.generator.BasicProjectRequest) throws java.io.IOException
-2017-05-30 16:03:24.398  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ui/dependencies],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> io.spring.initializr.web.ui.UiController.dependencies(java.lang.String)
-2017-05-30 16:03:24.420  INFO 8885 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-30 16:03:24.420  INFO 8885 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-30 16:03:24.431  INFO 8885 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-30 16:03:24.458  INFO 8885 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@149c39b: startup date [Tue May 30 16:03:23 BRT 2017]; root of context hierarchy
-2017-05-30 16:03:24.636  INFO 8885 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 273 ms
-2017-05-30 16:03:24.763  INFO 8885 --- [           main] .w.p.LegacyStsControllerIntegrationTests : Started LegacyStsControllerIntegrationTests in 0.998 seconds (JVM running for 4.819)
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /sts
-       Parameters = {}
-          Headers = {Accept=[text/html], Content-Length=[0]}
-
-Handler:
-             Type = io.spring.initializr.web.project.LegacyStsController
-           Method = public java.lang.String io.spring.initializr.web.project.LegacyStsController.stsHome(java.util.Map<java.lang.String, java.lang.Object>)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = sts-home
-             View = null
-        Attribute = serviceUrl
-            value = https://start.spring.io
-        Attribute = artifactId
-            value = io.spring.initializr.metadata.InitializrMetadata$ArtifactIdCapability@c9b5a99
-           errors = []
-        Attribute = bootVersions
-            value = io.spring.initializr.metadata.SingleSelectCapability@70be89ec
-           errors = []
-        Attribute = class
-            value = class io.spring.initializr.metadata.InitializrMetadata
-        Attribute = configuration
-            value = io.spring.initializr.metadata.InitializrProperties@2aee0704
-           errors = []
-        Attribute = dependencies
-            value = io.spring.initializr.metadata.DependenciesCapability@19a5b637
-           errors = []
-        Attribute = description
-            value = io.spring.initializr.metadata.TextCapability@4f3c7808
-           errors = []
-        Attribute = groupId
-            value = io.spring.initializr.metadata.TextCapability@4b4969ea
-           errors = []
-        Attribute = javaVersions
-            value = io.spring.initializr.metadata.SingleSelectCapability@11c581a0
-           errors = []
-        Attribute = languages
-            value = io.spring.initializr.metadata.SingleSelectCapability@256589a1
-           errors = []
-        Attribute = name
-            value = io.spring.initializr.metadata.TextCapability@935493d
-           errors = []
-        Attribute = packageName
-            value = io.spring.initializr.metadata.InitializrMetadata$PackageCapability@9b367c8
-           errors = []
-        Attribute = packagings
-            value = io.spring.initializr.metadata.SingleSelectCapability@34c62fdf
-           errors = []
-        Attribute = types
-            value = io.spring.initializr.metadata.TypeCapability@3de79067
-           errors = []
-        Attribute = version
-            value = io.spring.initializr.metadata.TextCapability@1eb85a47
-           errors = []
-        Attribute = trackingCode
-            value = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 200
-    Error message = null
-          Headers = {Content-Type=[text/html;charset=UTF-8]}
-     Content type = text/html;charset=UTF-8
-             Body = <!DOCTYPE html>
-<html>
-<head>
-    <title>Spring Initializr</title>
-    <link rel="stylesheet"
-          href="/css/bootstrap-sts.min.css"/>
-</head>
-<body>
-<div class="container">
-    <div class="navbar">
-        <div class="navbar-inner">
-            <a class="brand"
-               href="https://spring.io">
-                Spring
-            </a>
-            <ul class="nav">
-                <li>
-                    <a href="/" title="Download a template project or build file with some very basic content.">
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="/spring.zip" title="Download the spring CLI as a zip distribution (unpack and run bin/spring on a command line).">
-                        Download
-                    </a>
-                </li>
-                <li>
-                    <a href="/install.sh" title="Installer for the spring CLI command on Un*x-like system (should work on Linux, Mac or Cygwin). Curl this link and pipe to bash, or download the script and run it.">
-                        Installer
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <h1>Spring Initializr</h1>
-    <div>
-        <form id="form" action="/starter.zip" method="get">
-            <label for="groupId">Group:</label> <input id="groupId" type="text" value="io.redspark" name="groupId"/>
-            <label for="artifactId">Artifact:</label> <input id="artifactId" type="text" value="demo" name="artifactId"/>
-            <label for="name">Name:</label> <input id="name" type="text" value="demo" name="name"/>
-            <label for="name">Description:</label> <input id="description" type="text" value="Sample App project for Modelo Boot" name="description"/>
-            <label for="packageName">Package Name:</label> <input id="packageName" type="text" value="io.redspark.demo" name="packageName"/>
-            <label>Styles:</label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="web"/>
-                Web
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="security"/>
-                Security
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="data-jpa"/>
-                Data JPA
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="org.acme:foo"/>
-                Foo
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="org.acme:bar"/>
-                Bar
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="org.acme:biz"/>
-                Biz
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="org.acme:bur"/>
-                Bur
-            </label>
-            <label class="checkbox">
-                <input type="checkbox" name="style" value="my-api"/>
-                My API
-            </label>
-            <label>Type:</label>
-            <label class="radio">
-                <input type="radio" name="type" value="starter.zip" checked="true" onclick="javascript:this.form.action='/starter.zip'"/>
-                Maven Project
-            </label>
-            <label class="radio">
-                <input type="radio" name="type" value="gradle.zip" onclick="javascript:this.form.action='/starter.zip'"/>
-                Gradle Project
-            </label>
-            <label>Packaging:</label>
-            <label class="radio">
-                <input type="radio" name="packaging" value="jar" checked="true"/>
-                Jar
-            </label>
-            <label class="radio">
-                <input type="radio" name="packaging" value="war"/>
-                War
-            </label>
-            <label>Java Version:</label>
-            <label class="radio">
-                <input type="radio" name="javaVersion" value="1.6"/>
-                1.6
-            </label>
-            <label class="radio">
-                <input type="radio" name="javaVersion" value="1.7"/>
-                1.7
-            </label>
-            <label class="radio">
-                <input type="radio" name="javaVersion" value="1.8" checked="true"/>
-                1.8
-            </label>
-            <label>Language:</label>
-            <label class="radio">
-                <input type="radio" name="language" value="groovy"/>
-                Groovy
-            </label>
-            <label class="radio">
-                <input type="radio" name="language" value="java" checked="true"/>
-                Java
-            </label>
-            <label class="radio">
-                <input type="radio" name="language" value="kotlin"/>
-                Kotlin
-            </label>
-            <label>Spring Boot Version:</label>
-            <label class="radio">
-                <input type="radio" name="bootVersion" value="1.2.0.BUILD-SNAPSHOT"/>
-                Latest SNAPSHOT
-            </label>
-            <label class="radio">
-                <input type="radio" name="bootVersion" value="1.1.4.RELEASE" checked="true"/>
-                1.1.4
-            </label>
-            <label class="radio">
-                <input type="radio" name="bootVersion" value="1.0.2.RELEASE"/>
-                1.0.2
-            </label>
-            <button name="generate-project" type="submit" class="btn">Generate</button>
-        </form>
-    </div>
-</div>
-</body>
-</html>
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
+  <testcase name="legacyStsHome" classname="io.spring.initializr.web.project.LegacyStsControllerIntegrationTests" time="0.037"/>
 </testsuite>

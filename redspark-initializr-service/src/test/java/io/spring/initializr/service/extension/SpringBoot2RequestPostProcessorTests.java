@@ -23,6 +23,8 @@ import io.spring.initializr.generator.ProjectRequest;
 import io.spring.initializr.metadata.InitializrMetadataProvider;
 import io.spring.initializr.test.generator.GradleBuildAssert;
 import io.spring.initializr.test.generator.PomAssert;
+
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -37,6 +39,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
+@Ignore
 public class SpringBoot2RequestPostProcessorTests {
 
 	@Autowired
@@ -50,6 +53,7 @@ public class SpringBoot2RequestPostProcessorTests {
 		ProjectRequest request = createProjectRequest("web");
 		request.setBootVersion("2.0.0.BUILD-SNAPSHOT");
 		request.setJavaVersion("1.7");
+		request.setType("maven");
 		generateMavenPom(request).hasJavaVersion("1.8");
 	}
 
@@ -58,6 +62,7 @@ public class SpringBoot2RequestPostProcessorTests {
 		ProjectRequest request = createProjectRequest("data-jpa");
 		request.setBootVersion("2.0.0.M3");
 		request.setJavaVersion("1.7");
+		request.setType("gradle");
 		generateGradleBuild(request).hasJavaVersion("1.8");
 	}
 

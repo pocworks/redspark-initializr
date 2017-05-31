@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: io.spring.initializr.web.project.MainControllerEnvIntegrationTests
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.062 sec <<< FAILURE! - in io.spring.initializr.web.project.MainControllerEnvIntegrationTests
-googleAnalytics(io.spring.initializr.web.project.MainControllerEnvIntegrationTests)  Time elapsed: 0.082 sec  <<< FAILURE!
-java.lang.AssertionError: google analytics should be enabled
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at io.spring.initializr.web.project.MainControllerEnvIntegrationTests.googleAnalytics(MainControllerEnvIntegrationTests.java:71)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.375 sec - in io.spring.initializr.web.project.MainControllerEnvIntegrationTests

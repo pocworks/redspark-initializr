@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
+	<artifactId>redspark-initializr-service</artifactId>
+	<name>redspark Initializr :: Service</name>
 
 	<parent>
 		<groupId>io.redspark.initializr</groupId>
 		<artifactId>redspark-initializr</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<artifactId>redspark-initializr-service</artifactId>
-	<name>redspark Initializr :: Service</name>
 
 	<dependencies>
 		<dependency>
@@ -65,7 +65,7 @@
 				<dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat> <generateGitPropertiesFile>true</generateGitPropertiesFile> 
 				<generateGitPropertiesFilename> ${project.build.outputDirectory}/git.properties 
 				</generateGitPropertiesFilename> </configuration> </plugin> -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<executions>
@@ -91,8 +91,20 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>-->
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

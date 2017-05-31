@@ -5,7 +5,7 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 135
 
 {
-  "timestamp" : 1496171325016,
+  "timestamp" : 1496256232906,
   "status" : 406,
   "error" : "Not Acceptable",
   "message" : "No message available",

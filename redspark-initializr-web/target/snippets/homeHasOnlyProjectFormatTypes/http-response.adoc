@@ -2,12 +2,12 @@
 ----
 HTTP/1.1 200 OK
 Content-Type: text/html;charset=UTF-8
-Content-Length: 11345
+Content-Length: 11450
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Spring Initializr</title>
+    <title>redspark Initializr</title>
     <link href="//fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
@@ -41,13 +41,15 @@ Content-Length: 11345
                             <option value="kotlin" >Kotlin</option>
                         </select>
                         </span>
-                        <!--<span class="rwd-line">
-                        <label for="bootVersion">and Spring Boot</label>
-                        <select tabindex="3" class="form-control" name="bootVersion" id="bootVersion">
-                            <option value="1.2.0.BUILD-SNAPSHOT" >Latest SNAPSHOT</option>
-                            <option value="1.1.4.RELEASE"  selected>1.1.4</option>
-                            <option value="1.0.2.RELEASE" >1.0.2</option>
-                        </select>-->
+                        <div style="display:none">
+                            <span class="rwd-line">
+                            <label for="bootVersion">and Spring Boot</label>
+                            <select tabindex="3" class="form-control" name="bootVersion" id="bootVersion">
+                                <option value="1.2.0.BUILD-SNAPSHOT" >Latest SNAPSHOT</option>
+                                <option value="1.1.4.RELEASE"  selected>1.1.4</option>
+                                <option value="1.0.2.RELEASE" >1.0.2</option>
+                            </select>
+                        </div>
                     </span>
                     </h2>
                 </div>

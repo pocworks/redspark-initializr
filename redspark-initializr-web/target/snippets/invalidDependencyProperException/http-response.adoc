@@ -5,7 +5,7 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 180
 
 {
-  "timestamp" : 1496171324679,
+  "timestamp" : 1496256231728,
   "status" : 400,
   "error" : "Bad Request",
   "message" : "Unknown dependency 'foo' check project metadata",
