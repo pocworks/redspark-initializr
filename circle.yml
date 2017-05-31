@@ -34,4 +34,6 @@ deployment:
   master:
     branch: deploy
     commands:
-        - ./deploy.sh
+        docker build -t redspark/redspark-initializr:$BUILD_TAG server/docker
+        docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
+        docker push redspark/redspark-initializr:$BUILD_TAG
