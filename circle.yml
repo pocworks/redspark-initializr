@@ -24,7 +24,6 @@ test:
     - mvn versions:set -DnewVersion=$NUM_VERSION versions:commit
     - mvn install
 
-
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
@@ -33,6 +32,6 @@ deployment:
   deploy:
     branch: deploy
     commands:
-        - docker build -t redspark/redspark-initializr:$BUILD_TAG redspark-initializr-service .
+        - docker build -t redspark/redspark-initializr:$BUILD_TAG redspark-initializr-service
         - docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
         - docker push redspark/redspark-initializr:$BUILD_TAG
