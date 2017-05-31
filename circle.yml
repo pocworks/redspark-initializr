@@ -1,6 +1,11 @@
 machine:
   java:
     version: oraclejdk8
+  services:
+    - docker
+  environment:
+    NUM_VERSION: 1.0.$CIRCLE_BUILD_NUM
+    BUILD_TAG: $CIRCLE_BRANCH-1.0.$CIRCLE_BUILD_NUM
 
 general:
   artifacts:
