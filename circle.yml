@@ -6,14 +6,24 @@ general:
   artifacts:
     - "redspark-initializr-service/target/redspark-initializr-service.jar"
 
+dependencies:
+  cache_directories:
+    - ~/.m2
+    - ~/docker
+  override:
+    - mkdir -p ~/docker
+    - mvn --fail-never dependency:go-offline || true
+
 test:
   override:
-    - mvn --fail-never dependency:go-offline -f pom.xml || true
-    - mvn install jacoco:report coveralls:report -DrepoToken=1nqr7w1iwtzAToi58EabiIhjhMgeoZoNR
+    - mvn versions:set -DnewVersion=$NUM_VERSION versions:commit
+    - mvn install
+
 
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+
 
 deployment:
   master:
