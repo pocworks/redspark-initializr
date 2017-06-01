@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/spring' 'Accept:text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
-----

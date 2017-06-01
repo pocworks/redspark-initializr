@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: io.spring.initializr.web.project.MainControllerIntegrationTests
--------------------------------------------------------------------------------
-Tests run: 43, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.729 sec - in io.spring.initializr.web.project.MainControllerIntegrationTests

@@ -1,8 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET / HTTP/1.1
-Accept: text/plain
-User-Agent: SpringBootCli/1.2.0
-Host: start.spring.io
-
-----

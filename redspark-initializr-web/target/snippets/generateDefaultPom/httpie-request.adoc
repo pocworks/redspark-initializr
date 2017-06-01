@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/pom.xml?style=web' 'Accept:text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
-----

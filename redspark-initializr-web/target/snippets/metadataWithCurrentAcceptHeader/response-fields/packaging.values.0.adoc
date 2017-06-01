@@ -1,7 +1,0 @@
-[source,json,options="nowrap"]
-----
-{
-  "name" : "Jar",
-  "id" : "jar"
-}
-----

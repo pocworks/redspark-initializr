@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://start.spring.io/' -i -H 'Accept: application/vnd.initializr.v2+json'
-----

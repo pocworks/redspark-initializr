@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://start.spring.io/starter.zip?bootVersion=1.2.4.RELEASE&javaVersion=1.6' -i -H 'Accept: application/octet-stream, application/json, application/json, application/*+json, application/*+json, */*'
-----

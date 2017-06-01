@@ -1,8 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET / HTTP/1.1
-Accept: application/json
-User-Agent: curl/1.2.4
-Host: start.spring.io
-
-----

@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/' 'Accept:*/*' 'User-Agent:foo/1.0'
-----

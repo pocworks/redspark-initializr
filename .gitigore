@@ -39,4 +39,33 @@ output-vagrant/
 scripts/packer/*.pem
 *.box
 
+target/
+target/*
+database/
+*.classpath
+*.project
+*.pmd
+*.ruleset
+*.checkstyle
+*.settings/
+*.db
+*.log
+bin/
+bin-debug/
+*.bak
+*.orig
+.metadata/
+files/
+node_modules/
+.externalToolBuilders
+/target/
+*.db
+*siplan.min.css
+/target/
+*/target/
+*.zip
+.idea/
 
+redspark-initializr-service/target/
+redspark-initializr-web/target/
+redspark-initializr-generator/target/
