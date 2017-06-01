@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/spring.tar.gz' 'Accept:application/json, application/json, application/*+json, application/*+json'
-----

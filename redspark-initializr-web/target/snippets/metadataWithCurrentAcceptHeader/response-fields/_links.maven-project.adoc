@@ -1,7 +1,0 @@
-[source,json,options="nowrap"]
-----
-{
-  "templated" : true,
-  "href" : "https://start.spring.io/starter.zip?type=maven-project{&dependencies,packaging,javaVersion,language,bootVersion,groupId,artifactId,version,name,description,packageName}"
-}
-----

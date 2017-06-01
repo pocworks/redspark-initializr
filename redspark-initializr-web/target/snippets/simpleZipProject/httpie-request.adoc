@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/starter.zip?style=web&style=jpa' 'Accept:application/octet-stream, application/json, application/json, application/*+json, application/*+json, */*'
-----

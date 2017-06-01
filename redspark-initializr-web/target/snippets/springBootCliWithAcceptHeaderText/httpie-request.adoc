@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://start.spring.io/' 'Accept:text/plain' 'User-Agent:SpringBootCli/1.2.0'
-----

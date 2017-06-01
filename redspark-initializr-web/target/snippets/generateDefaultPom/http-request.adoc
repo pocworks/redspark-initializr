@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET /pom.xml?style=web HTTP/1.1
-Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
-Host: start.spring.io
-
-----

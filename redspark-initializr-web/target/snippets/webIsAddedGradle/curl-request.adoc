@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://start.spring.io/build.gradle?packaging=war' -i -H 'Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*'
-----

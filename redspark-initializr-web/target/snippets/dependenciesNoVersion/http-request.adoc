@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET /ui/dependencies HTTP/1.1
-Accept: 
-Host: start.spring.io
-
-----

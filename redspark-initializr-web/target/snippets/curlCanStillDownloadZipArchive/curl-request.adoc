@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://start.spring.io/starter.zip' -i -H 'Accept: */*' -H 'User-Agent: curl/1.2.4'
-----

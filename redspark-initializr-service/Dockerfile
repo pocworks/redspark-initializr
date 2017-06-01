@@ -1,7 +1,7 @@
 FROM redspark/oracle-jdk:1.8
 MAINTAINER redspark <infra@redspark.io>
 
-ADD redspark-initializr-service.jar /opt/redspark-initializr-service.jar
+ADD target/redspark-initializr-service.jar /opt/redspark-initializr-service.jar
 
 
 EXPOSE 8080
