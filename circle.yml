@@ -23,6 +23,7 @@ test:
   override:
     - mvn versions:set -DnewVersion=$NUM_VERSION versions:commit
     - mvn install
+    - cp redspark-initializr-service/target/redspark-initializr-service.jar redspark-initializr-service/redspark-initializr-service.jar
 
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
