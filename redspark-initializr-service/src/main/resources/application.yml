@@ -64,7 +64,7 @@ initializr:
     maven:
       parent:
         groupId: io.redspark
-        artifactId: modelo-boot-starter-parent
+        artifactId: redspark-boot-starter-parent
         version: 0.0.1-SNAPSHOT
         includeSpringBootBom: true
     boms:
@@ -1160,6 +1160,12 @@ initializr:
           groupId: br.org.sesc
           artifactId: sesc-commons-security
           starter: false
+        - name: Sesc Administrativo
+          id: sesc-administrativo
+          description: Projeto administrativo do SESC
+          groupId: br.org.sesc
+          artifactId: sesc-administrativo
+          starter: false
         - name: Sesc Commons Utils
           id: sesc-commons-utils
           description: Projeto com classes reutilizaveis nos projetos
@@ -1186,9 +1192,9 @@ initializr:
           starter: false
     - name: redspark
       content:
-        - name: Modelo Boot Commons
-          id: modelo-boot-starter-commons
-          description: Projeto commons do modelo boot
+        - name: redspark-boot Commons
+          id: redspark-boot-starter-commons
+          description: Projeto commons do redspark boot
           groupId: io.redspark
-          artifactId: modelo-boot-starter-commons
+          artifactId: redspark-boot-starter-commons
           starter: true
